@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="js/calculadora.js"></script>
+</head>
+<body>
+    <div>
+        <input type="number" id="n1">
+        <input type="number" id="n2">
+
+        <button type="button" onclick="somar()">Somar</button>
+
+        <button type="button" onclick="subtrair()">Subtrair</button>
+
+        <button type="button" onclick="multiplicar()">Multiplicar</button>
+
+        <button type="button" onclick="dividir()">Dividir</button>
+
+        <input type="number" id="calculo" disabled>
+    </div>
+    <div>
+        <input type="number" id="n1_media">
+        +
+        <input type="number" id="n2_media">
+        +
+        <input type="number" id="n3_media">
+        =
+        <input type="text" id="mediaFinal" disabled>
+
+        <button type="button" onclick="media()">Média</button>
+    </div>
+
+</body>
+</html>
