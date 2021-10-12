@@ -115,3 +115,29 @@ function exampleLoop()
     loop.innerHTML = msgLoop;
 }
 
+function limpar()
+{
+    let inputs_text = document.getElementsByClassName('form');
+    for (i = 0; i < inputs_text; i++)
+    {
+        inputs_text[i].value = "";
+    }
+}
+
+function limpa_array()
+{
+    let inputs_text = document.getElementsByClassName('form');
+    for(input in inputs_text)
+    {
+        inputs_text[input].value = "";
+    }
+}
+
+function limpa_for_each() {
+    let inputs_text = document.getElementsByClassName('form');
+    let inputs_array = Array.prototype.slice.call(inputs_text);
+    inputs_array.forEach(function(e){
+        e.value = "";
+    })
+
+}
