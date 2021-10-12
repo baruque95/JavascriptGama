@@ -9,8 +9,8 @@
 </head>
 <body>
     <div>
-        <input type="number" id="n1">
-        <input type="number" id="n2">
+        <input type="number" class="form" id="n1">
+        <input type="number" class="form" id="n2">
 
         <button type="button" onclick="somar()">Somar</button>
         <div class="error"></div>
@@ -24,20 +24,24 @@
         <button type="button" onclick="dividir()">Dividir</button>
         <div class="error"></div>
 
-        <input type="number" id="calculo" disabled>
+        <input type="number" class="form" id="calculo" disabled>
     </div>
     <div>
-        <input type="number" id="n1_media">
+        <input type="number" class="form" id="n1_media">
         +
-        <input type="number" id="n2_media">
+        <input type="number" class="form" id="n2_media">
         +
-        <input type="number" id="n3_media">
+        <input type="number" class="form" id="n3_media">
         =
-        <input type="text" id="mediaFinal" disabled>
+        <input type="text" class="form" id="mediaFinal" disabled>
 
         <button type="button" onclick="media()">Média</button>
         <div class="error"></div>
     </div>
 
+    <div id="loop">
+        
+    </div>
+    <button type="button" onclick="exampleLoop()">Loop</button>
 </body>
 </html>

@@ -103,3 +103,15 @@ function validarMedia(n1, n2, n3)
         return true
     }
 }
+
+function exampleLoop()
+{
+    let loop = document.getElementById('loop');
+    let msgLoop = "";
+    for(i = 0; i < 10; i++)
+    {
+        msgLoop += '<p>' + i + '< 10 </p>';
+    }
+    loop.innerHTML = msgLoop;
+}
+
